@@ -15,16 +15,5 @@ export const database = {
         {
             id: 1,
             name: "Mr. Glass"
-            power: "Super intelligence"
-        },
-        {
-            id: 2,
-            name: "Lex Luthor",
-            power: "Super strength"
-        }
-    ]
-};
-
-export const getVillains = () => {
-    return structuredClone(database.villains);
+            
 }
