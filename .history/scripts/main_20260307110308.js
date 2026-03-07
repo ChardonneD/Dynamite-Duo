@@ -22,5 +22,5 @@ debugger
     This is the code you wrote in the last chapter to get a
     reference to the <main> element
 */
-const theExistingMainElement = document.querySelector("container")
+const theExistingMainElement = document.querySelector("#container")
 theExistingMainElement.innerHTML = theWholeEnchilada
