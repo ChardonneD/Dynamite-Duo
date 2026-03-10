@@ -1,6 +1,6 @@
 
 import { generateMoviesHTML } from './movie-converter.js';
-import { renderMoviesToDOM } from './movie-render.js'; 
+import { renderMoviesToDOM } from './movie-render.js';
 
 // Import the function references that generate the HTML lists
 import { HeroList } from "./heroes.js"
@@ -24,5 +24,3 @@ const theWholeEnchilada = `
 */
 const theExistingMainElement = document.querySelector("#container")
 theExistingMainElement.innerHTML = theWholeEnchilada
-const movieHTML = generateMoviesHTML();
-renderMoviesToDOM(movieHTML);
