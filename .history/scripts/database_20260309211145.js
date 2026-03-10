@@ -14,16 +14,15 @@
     villians: [
         {
             id: 1,
-            name: "Mr. Glass",
+            name: "Mr. Glass"
             power: "Super intelligence"
         },
         {
             id: 2,
             name: "Lex Luthor",
             power: "Super strength"
-        },
-        {
-            id: 3,
+        }
+        {id: 3,
             name: "The Joker",
             power: "Unpredictability"
         }
