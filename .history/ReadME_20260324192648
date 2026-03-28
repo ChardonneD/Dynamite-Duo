@@ -1,0 +1,26 @@
+Developer Tolls Elements
+Right click anywhere and you can inspect
+This is where you will inspect the structure of your DOM (Document Object Model) and view the CSS used for styling th document.
+
+Learn More
+Take a few minutes and read the official Open Chrome DevTools article published by the Chrome team to learn more about the basics of the DevTools.
+https://developer.chrome.com/docs/devtools/open/
+
+---
+
+MOdules in the Browser
+Importing/Exporting information from a Javascript module
+export const database = {
+heroes: [
+{
+id: 1,
+name: "Dynoguy",
+power: "Fire blasts"
+},
+{
+id: 2,
+name: "Hyperspeed",
+power: "Super speed"
+}
+]
+}

@@ -30,6 +30,5 @@ villians: [
 ]
 }
 export const getVillains = () => {
-    return structuredClone(database.villians);
+    return structuredClone(database.villains);
 }
-//structuredClone is a built-in JavaScript function that creates a deep copy of a value. This means it duplicates objects, arrays, and even complex data structures without keeping any references to the original.
